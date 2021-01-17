@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_large"
+    android:gravity="center"
+    android:clickable="true">
+    <com.tylersuehr.cleanarchitecture.ui.views.CircleImageView
+        android:id="@+id/image"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="@dimen/padding_large"
+        android:layout_marginRight="@dimen/padding_large"
+        android:src="@drawable/img_profile_0"
+        app:fillColor="@color/colorPrimary"
+        app:borderColor="@color/colorPrimaryDark"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="@dimen/text_title"
+        android:textColor="@color/grey.600"
+        tools:text="Name Goes Here"/>
+    <TextView
+        android:id="@+id/age"
+        android:background="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:paddingLeft="@dimen/padding_small"
+        android:paddingRight="@dimen/padding_small"
+        android:textSize="@dimen/text_small"
+        android:textColor="@color/grey.900"
+        tools:text="Age 31"/>
+</LinearLayout>

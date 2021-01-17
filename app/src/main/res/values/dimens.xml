@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="padding_xlarge">24dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+
+    <dimen name="text_h1">32sp</dimen>
+    <dimen name="text_h2">28sp</dimen>
+    <dimen name="text_h3">24sp</dimen>
+    <dimen name="text_h4">18sp</dimen>
+    <dimen name="text_title">16sp</dimen>
+    <dimen name="text_subtitle">14sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ElasticFrameLayout">
+        <attr name="dragDismissDistance" format="dimension" />
+        <attr name="dragDismissFraction" format="float" />
+        <attr name="dragDismissScale" format="float" />
+        <attr name="dragElasticity" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="borderColor" format="color"/>
+        <attr name="borderWidth" format="dimension"/>
+        <attr name="fillColor" format="color"/>
+        <attr name="borderOverlay" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="EmptyStateRecyclerView">
+        <attr name="emptyStateIcon" format="dimension"/>
+        <attr name="emptyStateText" format="string"/>
+        <attr name="emptyStateAuto" format="boolean"/>
+    </declare-styleable>
+</resources>
